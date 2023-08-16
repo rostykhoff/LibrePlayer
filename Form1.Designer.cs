@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            musicItemArea = new FlowLayoutPanel();
+            SuspendLayout();
+            // 
+            // musicItemArea
+            // 
+            musicItemArea.AutoScroll = true;
+            musicItemArea.Dock = DockStyle.Fill;
+            musicItemArea.Location = new Point(0, 0);
+            musicItemArea.Name = "musicItemArea";
+            musicItemArea.Size = new Size(1582, 753);
+            musicItemArea.TabIndex = 0;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(30, 30, 30);
+            ClientSize = new Size(1582, 753);
+            Controls.Add(musicItemArea);
+            Name = "Form1";
+            Text = "Form1";
+            Load += Form1_Load;
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private FlowLayoutPanel musicItemArea;
     }
 }

@@ -1,0 +1,31 @@
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\LibrePlayer.exe
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\LibrePlayer.deps.json
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\LibrePlayer.runtimeconfig.json
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\LibrePlayer.dll
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\LibrePlayer.pdb
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\LibrePlayer.csproj.AssemblyReference.cache
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\LibrePlayer.Form1.resources
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\LibrePlayer.MusicItem.resources
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\LibrePlayer.Properties.Resources.resources
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\LibrePlayer.csproj.GenerateResource.cache
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\LibrePlayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\LibrePlayer.AssemblyInfoInputs.cache
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\LibrePlayer.AssemblyInfo.cs
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\LibrePlayer.csproj.CoreCompileInputs.cache
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\LibrePlayer.dll
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\refint\LibrePlayer.dll
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\LibrePlayer.pdb
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\LibrePlayer.genruntimeconfig.cache
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\ref\LibrePlayer.dll
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\Music\7 Words.mp3
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\Music\Alabama Song (Whisky Bar).mp3
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\Music\Are You Gonna Be My Girl.mp3
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\Music\Be Quiet and Drive (Far Away).mp3
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\Music\Bigmouth Strikes Again 2011 Remaster.mp3
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\Music\Birthmark.mp3
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\Music\Black Hole Sun.mp3
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\Music\Bodies.mp3
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\Music\Bored.mp3
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\Music\Boys Don't Cry.mp3
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\Music\Brackish.mp3
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\Music\Brand New Cadillac - Remastered.mp3
