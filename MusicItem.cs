@@ -23,6 +23,14 @@ namespace LibrePlayer
             DoubleClickRecursive(musicArea);
         }
 
+        public MusicItem(string filePath) : this()
+        {
+            FileInfo file = new FileInfo(filePath);
+            File = file.FullName;
+            Title = file.Name.Replace(".mp3", "");
+            Description = file.CreationTime.ToString("d/MM/yyyy");
+        } 
+
         #region Hover
         private void MusicArea_MouseLeave(object? sender, EventArgs e)
         {

@@ -15,12 +15,8 @@ namespace LibrePlayer
 
             for (int i = 0; i < tracks.Length; i++)
             {
-                FileInfo file = new FileInfo(tracks[i]);
-                var track = new MusicItem();
-                track.File = file.FullName;
+                var track = new MusicItem(tracks[i]);
                 track.PlayMusic += Track_PlayMusic;
-                track.Title = file.Name.Replace(".mp3", "");
-                track.Description = file.CreationTime.ToString("d/MM/yyyy");
                 musicItemArea.Controls.Add(track);
             }
         }
