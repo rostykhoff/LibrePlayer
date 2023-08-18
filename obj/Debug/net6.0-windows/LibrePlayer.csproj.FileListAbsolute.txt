@@ -37,3 +37,4 @@ D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\
 D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\NAudio.WinForms.dll
 D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\NAudio.WinMM.dll
 D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\LibrePlayer.csproj.CopyComplete
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\LibrePlayer.MusicTrackBar.resources

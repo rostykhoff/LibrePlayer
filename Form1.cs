@@ -24,20 +24,10 @@ namespace LibrePlayer
                 musicItemArea.Controls.Add(track);
             }
         }
-        WaveOut wave;
-        AudioFileReader reader;
         private void Track_PlayMusic(object? sender, EventArgs e)
         {
-            string path = (string)sender!;
-            if(wave != null)
-            {
-                wave.Dispose();
-                reader.Dispose();
-            }
-            wave = new WaveOut();
-            reader = new AudioFileReader(path);
-            wave.Init(reader);
-            wave.Play();
+            MusicItem music = (MusicItem)sender!;
+            trackBar.PlayPause(music);
         }
     }
 }

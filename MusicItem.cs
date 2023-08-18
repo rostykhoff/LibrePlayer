@@ -83,7 +83,7 @@ namespace LibrePlayer
         {
             if(playMusic!=null)
             {
-                playMusic.Invoke(file, EventArgs.Empty);
+                playMusic.Invoke(this, EventArgs.Empty);
             }
         }
 

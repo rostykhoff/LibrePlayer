@@ -29,24 +29,38 @@
         private void InitializeComponent()
         {
             musicItemArea = new FlowLayoutPanel();
+            trackBar = new MusicTrackBar();
             SuspendLayout();
             // 
             // musicItemArea
             // 
             musicItemArea.AutoScroll = true;
+            musicItemArea.BackColor = Color.FromArgb(30, 30, 30);
             musicItemArea.Dock = DockStyle.Fill;
             musicItemArea.Location = new Point(0, 0);
+            musicItemArea.Margin = new Padding(3, 2, 3, 2);
             musicItemArea.Name = "musicItemArea";
-            musicItemArea.Size = new Size(1582, 753);
+            musicItemArea.Size = new Size(1384, 465);
             musicItemArea.TabIndex = 0;
+            // 
+            // trackBar
+            // 
+            trackBar.BackColor = Color.FromArgb(20, 20, 20);
+            trackBar.Dock = DockStyle.Bottom;
+            trackBar.Location = new Point(0, 465);
+            trackBar.Name = "trackBar";
+            trackBar.Size = new Size(1384, 100);
+            trackBar.TabIndex = 1;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(30, 30, 30);
-            ClientSize = new Size(1582, 753);
+            BackColor = Color.White;
+            ClientSize = new Size(1384, 565);
             Controls.Add(musicItemArea);
+            Controls.Add(trackBar);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -56,5 +70,6 @@
         #endregion
 
         private FlowLayoutPanel musicItemArea;
+        private MusicTrackBar trackBar;
     }
 }
