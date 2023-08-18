@@ -28,6 +28,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.1.0" />
+    <PackageReference Include="NAudio.Core" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Music\7 Words.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

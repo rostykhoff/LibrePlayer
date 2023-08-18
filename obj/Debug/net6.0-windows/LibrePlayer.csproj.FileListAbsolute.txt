@@ -29,3 +29,11 @@ D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\
 D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\Music\Boys Don't Cry.mp3
 D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\Music\Brackish.mp3
 D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\Music\Brand New Cadillac - Remastered.mp3
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\NAudio.dll
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\NAudio.Asio.dll
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\NAudio.Core.dll
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\NAudio.Midi.dll
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\NAudio.Wasapi.dll
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\NAudio.WinForms.dll
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\bin\Debug\net6.0-windows\NAudio.WinMM.dll
+D:\user\Documents\!C#\Projects\LibrePlayer\LibrePlayer\obj\Debug\net6.0-windows\LibrePlayer.csproj.CopyComplete

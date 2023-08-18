@@ -1,3 +1,5 @@
+using NAudio.Wave;
+
 namespace LibrePlayer
 {
     public partial class Form1 : Form
@@ -15,10 +17,27 @@ namespace LibrePlayer
             {
                 FileInfo file = new FileInfo(tracks[i]);
                 var track = new MusicItem();
+                track.File = file.FullName;
+                track.PlayMusic += Track_PlayMusic;
                 track.Title = file.Name.Replace(".mp3", "");
                 track.Description = file.CreationTime.ToString("d/MM/yyyy");
                 musicItemArea.Controls.Add(track);
             }
+        }
+        WaveOut wave;
+        AudioFileReader reader;
+        private void Track_PlayMusic(object? sender, EventArgs e)
+        {
+            string path = (string)sender!;
+            if(wave != null)
+            {
+                wave.Dispose();
+                reader.Dispose();
+            }
+            wave = new WaveOut();
+            reader = new AudioFileReader(path);
+            wave.Init(reader);
+            wave.Play();
         }
     }
 }
