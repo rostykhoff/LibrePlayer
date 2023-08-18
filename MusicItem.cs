@@ -12,6 +12,9 @@ namespace LibrePlayer
 {
     public partial class MusicItem : UserControl
     {
+        private string file;
+        private EventHandler? playMusic;
+
         public MusicItem()
         {
             InitializeComponent();
@@ -78,7 +81,10 @@ namespace LibrePlayer
 
         private void Element_MouseDoubleClick(object? sender, MouseEventArgs e)
         {
-            
+            if(playMusic!=null)
+            {
+                playMusic.Invoke(sender, EventArgs.Empty);
+            }
         }
 
 
@@ -118,6 +124,32 @@ namespace LibrePlayer
             set
             {
                 musicIcon.Image = value;
+            }
+        }
+        public string File
+        {
+            get
+            {
+                if (file == null)
+                {
+                    return "null";
+                }
+                return file;
+            }
+            set
+            {
+                file = value;
+            }
+        }
+        public event EventHandler? PlayMusic
+        {
+            add
+            {
+                playMusic += value;
+            }
+            remove
+            {
+                playMusic -= value;
             }
         }
     }
